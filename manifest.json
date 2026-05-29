@@ -1,0 +1,49 @@
+{
+    "name": "美食旅游",
+    "appid": "__UNI__FOODTRAVEL",
+    "description": "美食与旅游综合应用",
+    "versionName": "1.0.0",
+    "versionCode": "100",
+    "transformPx": false,
+    "app-plus": {
+        "usingComponents": true,
+        "nvueStyleCompiler": "uni-app",
+        "compilerVersion": 3,
+        "splashscreen": {
+            "alwaysShowBeforeRender": true,
+            "waiting": true,
+            "autoclose": true,
+            "delay": 0
+        },
+        "modules": {},
+        "distribute": {
+            "android": {
+                "permissions": []
+            },
+            "ios": {},
+            "sdkConfigs": {}
+        }
+    },
+    "h5": {
+        "title": "美食旅游",
+        "router": {
+            "mode": "hash",
+            "base": ""
+        },
+        "optimization": {
+            "treeShaking": {
+                "enable": false
+            }
+        }
+    },
+    "mp-weixin": {
+        "appid": "",
+        "setting": {
+            "urlCheck": false
+        },
+        "usingComponents": true
+    },
+    "uniStatistics": {
+        "enable": false
+    }
+}
