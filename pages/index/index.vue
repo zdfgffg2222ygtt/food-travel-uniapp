@@ -152,7 +152,9 @@ export default {
             });
         },
         goSearch() {
-            uni.showToast({ title: '搜索功能开发中', icon: 'none', duration: 1500 });
+            uni.navigateTo({
+                url: '/pages/search/search'
+            });
         },
         filterByCity() {
             let foods = this.allFoods;

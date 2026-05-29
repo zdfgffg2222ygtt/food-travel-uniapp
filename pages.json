@@ -11,6 +11,14 @@
             }
         },
         {
+            "path": "pages/search/search",
+            "style": {
+                "navigationBarTitleText": "搜索",
+                "navigationBarBackgroundColor": "#FF6600",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
             "path": "pages/index/index",
             "style": {
                 "navigationBarTitleText": "美食旅游",
